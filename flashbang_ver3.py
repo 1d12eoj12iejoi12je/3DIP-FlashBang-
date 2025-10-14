@@ -420,15 +420,22 @@ menubar.add_cascade(label="Help", menu=help_menu)  # adding help to menu bar
 help_menu.add_command(label="About", command=lambda: messagebox.showinfo(
     "About?",
     "FlashBang!\nYour flashcard study tool.\n"
-    "FlashBang! is a simple flashcard study tool designed to make learning quick and interactive."
-    "With FlashBang! you can:"
-    "\n\t* Create your own decks of flashcards. "
-    "\n\t* Add, edit, and delete cards at any time."
-    "\n\t* Flip through cards or shuffle them randomly."
-    "\n\t* Save your decks so you can return and study later"
-    "\nThe program is built to help students and learners memorise information, revise key concepts,"
-    "and prepare for tests in a fun, flexible way."))
-
+    "Main Menu:\n"
+    "Add Deck – Create a new deck.\n"
+    "View Decks – Open or edit an existing deck.\n"
+    "Exit – Close the program.\n"
+    "Deck Screen:\n"
+    "Add Card – Add a new flashcard.\n"
+    "Edit/Delete Card – Change or remove a card.\n"
+    "Study Deck – Start studying your cards.\n"
+    "Study Screen:\n"
+    "Spacebar – Flip the card.\n"
+    "Arrow Keys – Move between cards.\n"
+    "Esc – Return to the main menu.\n"
+    "Tips:\n"
+    "Avoid empty names or cards.\n"
+    "Decks save automatically.\n"
+    "Keep names short and simple!"))
 # ====== BINDS =======
 study_frame.bind("<space>", lambda event: flip())
 study_frame.bind("<Left>", lambda event: prev_card())
@@ -438,3 +445,4 @@ study_frame.focus_set()
 
 show_frame(menu_frame)  # starting with menu
 root.mainloop()
+
