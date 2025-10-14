@@ -1,2 +1,2 @@
 # 3DIP-FlashBang-
-Creating a flashcard application that students can use to study and memorise content.
+The purpose of FlashBang is to provide students with an engaging and effective way to study using digital flashcards. The program allows users to create custom decks, add images, flip through cards, and test their memory in a simple, interactive format. By making studying fast and flexible, FlashBang helps learners memorise information, revise key concepts, and prepare for tests or exams with ease.
