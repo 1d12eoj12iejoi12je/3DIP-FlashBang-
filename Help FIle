@@ -1,0 +1,31 @@
+Main Menu:
+
+Add Deck – Create a new deck.
+
+View Decks – Open or edit an existing deck.
+
+Exit – Close the program.
+
+Deck Screen:
+
+Add Card – Add a new flashcard.
+
+Edit/Delete Card – Change or remove a card.
+
+Study Deck – Start studying your cards.
+
+Study Screen:
+
+Spacebar – Flip the card.
+
+Arrow Keys – Move between cards.
+
+Esc – Return to the main menu.
+
+Tips:
+
+Avoid empty names or cards.
+
+Decks save automatically.
+
+Keep names short and simple!
