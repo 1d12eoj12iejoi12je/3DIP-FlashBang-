@@ -421,21 +421,20 @@ help_menu.add_command(label="About", command=lambda: messagebox.showinfo(
     "About?",
     "FlashBang!\nYour flashcard study tool.\n"
     "Main Menu:\n"
-    "Add Deck – Create a new deck.\n"
-    "View Decks – Open or edit an existing deck.\n"
-    "Exit – Close the program.\n"
+    "\tAdd Deck – Create a new deck.\n"
+    "\tView Decks – Open or edit an existing deck.\n"
+    "\tExit – Close the program.\n"
     "Deck Screen:\n"
-    "Add Card – Add a new flashcard.\n"
-    "Edit/Delete Card – Change or remove a card.\n"
-    "Study Deck – Start studying your cards.\n"
+    "\tAdd Card – Add a new flashcard.\n"
+    "\tEdit/Delete Card – Change or remove a card.\n"
+    "\tStudy Deck – Start studying your cards.\n"
     "Study Screen:\n"
-    "Spacebar – Flip the card.\n"
-    "Arrow Keys – Move between cards.\n"
-    "Esc – Return to the main menu.\n"
+    "\tSpacebar – Flip the card.\n"
+    "\tArrow Keys – Move between cards.\n"
     "Tips:\n"
-    "Avoid empty names or cards.\n"
-    "Decks save automatically.\n"
-    "Keep names short and simple!"))
+    "\tAvoid empty names or cards.\n"
+    "\tDecks save automatically.\n"
+    "\tKeep names short and simple!"))
 # ====== BINDS =======
 study_frame.bind("<space>", lambda event: flip())
 study_frame.bind("<Left>", lambda event: prev_card())
@@ -445,4 +444,5 @@ study_frame.focus_set()
 
 show_frame(menu_frame)  # starting with menu
 root.mainloop()
+
 
