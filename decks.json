@@ -1,0 +1,25 @@
+{
+    "animal sounds": {
+        "pig": "oink",
+        "dog": "woof",
+        "cat": "meowwww",
+        "PIGGGGG": "OINk"
+    },
+    "chemical symbols": {
+        "Oxygen": "O",
+        "Sodium": "Na",
+        "Chlorine": "Cl",
+        "CARBON": "C"
+    },
+    "te reo m\u0101ori": {
+        "Kia Ora": "Hello",
+        "M\u014drena": "Good Morning"
+    },
+    "names": {
+        "Manav": "Kumar",
+        "Yuvraj": "Garcha",
+        "Moksha": "Kothipalli",
+        "Ekampreet": "Samra"
+    },
+    "manav": {}
+}
